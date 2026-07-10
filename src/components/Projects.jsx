@@ -1,4 +1,7 @@
 import React from "react";
+import { Foodweb } from "../utils/constants";
+import { Pharmacyweb } from "../utils/constants";
+import { ImageGallery } from "../utils/constants";
 
 const projects = [
   {
@@ -6,7 +9,7 @@ const projects = [
     description:
       "A responsive food ordering application with restaurant listings, search, filtering, and modern UI built using React.",
     tech: "React • JavaScript • CSS",
-    image: "https://placehold.co/400x250",
+    image: Foodweb,
     github: "#",
     live: "#",
   },
@@ -15,16 +18,16 @@ const projects = [
     description:
       "Inventory management system for pharmacies with medicine tracking, expiry alerts, billing, and stock management.",
     tech: "HTML • CSS • JavaScript",
-    image: "https://placehold.co/400x250",
+    image: Pharmacyweb,
     github: "#",
     live: "#",
   },
   {
-    title: "Personal Portfolio",
+    title: "PhotoHub",
     description:
-      "A professional portfolio website showcasing my skills, projects, resume, and contact information with a responsive design.",
+      "An Organize Image Gallery website, beautifully structured",
     tech: "React • CSS",
-    image: "https://placehold.co/400x250",
+    image: ImageGallery,
     github: "#",
     live: "#",
   },
